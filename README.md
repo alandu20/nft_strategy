@@ -1,4 +1,4 @@
-# NFT
+# NFT Trading System
 
 Note this a partial version of the full repo. Inquiries: alan.du20@gmail.com.
 
