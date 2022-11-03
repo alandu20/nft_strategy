@@ -1,0 +1,119 @@
+# Trade History
+
+- bossbeauties 3307: 2022-01-16 bought 1.25 eth, 2022-01-29 sold 3 eth, **net pnl 1.525 eth**, holding period 13 days
+	- https://etherscan.io/tx/0x56066f850dc1f9725c3ebc39dae625faa783e7a3047d9fd1b8fb4931d2a21f5f bought
+	- https://etherscan.io/tx/0x849d00be537907a1a1b7b8b517d278b1011179b7a91efb5a9aba34f6c7b2ace5 sold
+	- Bought before BB Alpha Week, which actually spanned ~2 weeks
+- knights-of-degen-official 5580: 2022-02-03 bought 0.69 eth
+	- https://etherscan.io/tx/0x02aff454ab756b42aafd937d50f926919fa8d61f74a17a2c85530bc60b291e20 bought edge_ratio 1.38
+	- Bought right after selling 1124 in anticipation of further pumping (thought it would be like WoW), bought near all time high global floor
+- knights-of-degen-official 3847: 2022-02-03 bought 0.7 eth, 2022-02-12 sold 1 eth, **net pnl 0.186**, holding period 9 days
+	- https://etherscan.io/tx/0xb2fef200de1f3bd5733276b1fd342f601c3c676b08bd3978f2792a4d762e0b98 bought
+	- https://etherscan.io/tx/0xbc01cff2f684b8cd387b78c952c1bf4c982033f2a17f06826210627f8b653c7c sold
+- bossbeauties 8102: 2022-02-04 bought 2.25 eth
+	- https://etherscan.io/tx/0xa1ab21294f6ac1d1253d1ef81502e81b92cb565fa97a3511265aa67476b56068
+	- Max drawdown ~0.2 eth
+- bossbeauties 5289: 2022-02-04 bought 2.2 eth, 2022-02-28 sold 2.69 eth, **net pnl 0.288 eth**, holding period 24 days
+	- https://etherscan.io/tx/0x98bf36ef9baa4dfb10aa3ebd90ffe1d80274ccd70eb5730e2debf32c04826799 bought
+	- https://etherscan.io/tx/0x843f4c38b65352d1b1517baf732a65efc439f9ccfb57a7d995cae1ae122b15aa sold
+	- Max drawdown ~0.2 eth
+	- Sold a few days before BB March Alpha Month
+- bossbeauties 3248: 2022-02-11 bought 2.2 eth, 2022-03-01 sold 3.44 eth, **net pnl 0.982 eth**, holding period 18 days
+	- https://etherscan.io/tx/0x123930f8fc985e1889e23076d28471b2cc98052df555a09a0d3eddb5b873cd0b bought
+	- https://etherscan.io/tx/0x17a7fe947b5af069100583b67f8a61f580c63abf33eb13013693177cc2bb0c6c sold
+	- Max drawdown ~0 eth
+	- Sold before BB March Alpha Month started
+- knights-of-degen-official 1110: 2022-02-14 bought 0.66 eth, 2022-03-02 sold 0.92 eth, **net pnl 0.155 eth**, holding period 16 days
+	- https://etherscan.io/tx/0xcf8902ac6b98ec569b4db6ee3e36d8c387615e168d86670d464618b303b5520a bought edge_ratio 14.5
+	- https://etherscan.io/tx/0xc742bb789643e23fd2404d64ddb5eb829307a20a79992c197d8b7c5dc0b9b041 sold
+- edenhorde 5928: 2022-02-19 bought 2.49 eth, 2022-03-21 sold 0.88 eth, **net pnl -1.68 eth**
+	- https://etherscan.io/tx/0xddce68d78965c7d561a569639106d93d0f6fbd93dc574c75528978703837c8c0 bought edge_ratio 4.8
+	- https://etherscan.io/tx/0xee3dec3f9d61a5d80b400f0791e0225201a0c074615448b37aa9d680441bd13e sold
+	- Perceived edge_ratio 4.8 but only 1 day of sales since reveal so really overfit the rarest trait (expression=weary). Several high sales with this same rarest trait, but they all had other valuable 1% or better traits. **Do not trade collections within a week of reveal, even if there are a lot of sales**
+	- Also bought much higher than floor, in the top ~10% of highest sales. Consider adding "deeps" required edge component to exponentially increase edge requirement if much higher than floor. EDIT: 2022-03-14 added OTM fudge component to required edge to address this. [postmortem_20220219_edenhorde_5928.md](postmortem/postmortem_20220219_edenhorde_5928.md)
+	- Max drawdown as of 2022-03-14 ~1.6 eth
+- karafuru 4963: 2022-02-22 bought 4.2 eth, 2022-02-22 sold 5.5 eth, **net pnl 0.86 eth**, holding period 3 hours
+	- https://etherscan.io/tx/0x2cd81fd6d0826a45e78c40b43f07e275baa124860885964cb8e4a54949856baa bought edge_ratio ~6
+	- https://etherscan.io/tx/0x22dfc0e610a1b4358d5fab155d123d7ec795ed4122df56dab9c2d6ec9e59c9ff sold
+	- [postmortem_20220222_karafuru_4963.md](postmortem/postmortem_20220222_karafuru_4963.md) found required edge null value sorting bug causing edge_ratio instability
+- mfers 9004: 2022-02-25 bought 3.95 eth, 2022-04-04 sold 4.04 eth, **net pnl -0.12 eth**, holding period 38 days
+	- https://etherscan.io/tx/0x83f8d45bf8b310a3f153bc9306374826a140c595ffd4fe4421cfb4f566636e28 bought edge_ratio ~2 at global floor
+	- https://etherscan.io/tx/0x5caec438345aa6d86812c4ec03d2dd645cb5adc4b0d77eec3b6487091edc0047 sold edge_ratio ~-2 (below theo), around floor
+	- Passed on mfers 4044 at edge_ratio ~2 about an hour earlier, which had same rarest trait and was successfully flipped for ~0.5 eth profit same day. Had 4:20 watch trait whereas 9004 did not have any watch, could be pricing issue. Floor started dropping next day
+	- Max drawdown as of 2022-03-09 ~1.8 eth
+	- Intentionally sold below theo. On 2022-02-25, 1 ETH = 2764 USD. On 2022-04-04, 1 ETH = 3450 USD. Clearly did not buy 9004 for enough edge, so took 3% hit in ETH space but USD is 25% higher (~2300 USD net profit). Also advantageous for this year's tax purposes to sell NFT and buy ETH at higher ETH level
+- karafuru 4314: 2022-02-27 bought 3.777 eth, 2022-03-20 sold 2.6 eth, **net pnl -1.385 eth**, holding period 21 days
+	- https://etherscan.io/tx/0x6ee44de20d32cc27f03aeb5249ce0e26ec5f882079649bfbcd06d20b0adfece8 bought edge_ratio ~0.15 at global floor
+	- https://etherscan.io/tx/0xb40a0ade0a86cea72b2fe3c66ceb9e8349054eb52024b9cc058bb30dfe558257 sold at floor
+	- Bought near absolute peak of Hypebeast x Atmos Tokyo pump, one of the first undercutters during pump. Made mistake of trading super tight in anticipation of further pumping, under the constraint of having only 3.92 eth left in capital at the time. Another classic example of buy the news, sell the rumor. **Never panic buy into a news pump again, especially if it is post-news**
+	- Afterwards changed --load_sales and --load_listed args to use dynamic files, needed to evaluate all latest listings quickly (w/o scraping again) not just those on OS activity page
+	- Max drawdown as of 2022-03-07 ~1.7 eth
+- karafuru 2499: 2022-03-08 bought 2.2 eth, 2022-03-09 sold 2.55 eth, **net pnl 0.146**, holding period 1 day
+	- https://etherscan.io/tx/0x4fd64f327d09ba99b603b9b30541d33936129946f56a044f56d6915a1048eae0 bought edge_ratio ~4.5
+	- https://etherscan.io/tx/0x422332eefb69f2199a935be1844fbedf71a459aeaa0193b55f58807765ebe6cb sold edge_ratio ~2
+	- Realizing that it is an important part of the flipper strategy to require >4 edge ratios and sell within a day or two, even if at a loss. Approach up until now has been negatively selected, holding onto losers (e.g. mfers 9004) and cutting off winners. Need to require >4 edge ratios (especially in current low volume / bear market environment) b/c need to give up edge on sell leg to get a buyer to bite. In order to increase holding period, would need a sell signal too, e.g. market momentum on sales or listings
+- rumble-kong-league 5283: 2022-03-10 bought 1.58 eth, 2020-03-11 sold 2.65 eth, **net pnl 0.87 eth**, holding period 1 day
+	- https://etherscan.io/tx/0xb09f5bfbf4efddbf9df19dba764a95a3895b0a74342f904057d008216ea41c27 bought edge 0.38 (234 boost)
+	- https://etherscan.io/tx/0xcc04942290c751a22176664cca1d91f19c849c9bb6e27356f76207cf378c9e94 sold edge -0.45 (+0.65 using new pro features)
+- karafuru 3724: 2022-03-15 bought 2.6 eth, 2022-03-16 sold 2.87 weth, **net pnl 0.04 eth**, holding period 1 day
+	- https://etherscan.io/tx/0x077ac4aaf4cb4e54708e8daba0b5ee175aba747fa2981823d6a67b2c5cc8dcf1 bought edge_ratio 11
+	- https://etherscan.io/tx/0x55d36e4a27e1d6fe80c01620783b9b2c4aac18ee4d9c1975216f20b9d64f039e sold edge_ratio 1
+	- Floor was 2.8 at time of buy. Afterwards changed ITM fudge logic to more reasonable edge_ratio of 3.8: [postmortem_20220316_karafuru_3724.md](postmortem/postmortem_20220316_karafuru_3724.md). Accepted weth bid soon after noticing original 2.6 seller's wallet was marked as potentially compromised on OS
+- bossbeauties 4978: 2022-03-18 bought 2.1 eth
+	- https://etherscan.io/tx/0x1330ffad15c944c5658285cfb94f780e2a64037d66c7f4ceef5c96e152836992 bought edge_ratio 3
+	- Some subjectivity in this trade with global floor at 1.6 eth, lowest level since beginning of March alpha month. Gold medal trait traded ~5 eth at height of run earlier this year
+- rumble-kong-league 6502: 2022-03-21 bought 1.5 eth, 2022-03-23 sold 1.89 weth, **net pnl 0.25 eth**, holding period 2 days
+	- https://etherscan.io/tx/0x9a2787e4333ae767456ad30daaa611b53bdefcfd0bf947cb28e2371d3a198dfe bought edge 0.29 (209 boost)
+	- https://etherscan.io/tx/0xe20271af234a459b40dd890394cc71c6d3d8345db6bdb5d40f2cff737707f019 sold edge 0
+	- Decided to accept bid after someone mass listed ~15 kongs in various wallets all for 1.588 eth
+- bossbeauties 6745: 2022-03-22 bought 2.1 weth
+	- https://etherscan.io/tx/0xeebbe63eee2fd4c8ea07f06b6348fce1bad849fea73e082af79db30d595edce4 bought edge_ratio ~5, edge 0.70
+	- Interestingly 0x0c5c81fcbf3d90eb8013bdf0696d306c8e4bb8a9 (GROWdnd) bought 2303 in the exact same block. 2303 was the only other vintage listed below [6.2, 100]. Either a really strange coincidence or wallet is running a very fast strategy
+- bossbeauties 5844: 2022-03-23 bought 1.4 eth, 2022-03-25 sold 1.69 eth, **net pnl 0.16 eth**, holding period 2 days
+	- https://etherscan.io/tx/0x7ed50a7d6a010b69525ec02d10f082f5ca1479d1ba527ebfd699fe3d2956e946 bought edge_ratio 1.714, edge 0.226. Listed below floor ~1.6
+	- https://etherscan.io/tx/0x0d691663b4858fe4cdfd623aaadddb244f4a3e75183954921271b8ba8ac9476d sold edge_ratio 0.17, edge 0.09
+	- Orderbook (rounded to nearest 0.05) was [1.4, 1.55, 1.7, 1.75] at the time, with sizes [1, 1, 1, 4]. OS displayed floor was 1.55. Shortly after the 1.55 level expired or cancelled, so floor changed to 1.7. At 1.7 floor, the edge_ratio is ~3 and edge ~0.3 (theo 1.93 vs 1.75). Using new microprice logic (in-development), the synthetic global floor would be 1.66 (?)
+	- Forgot to re-list the day before, probably could have sold a day earlier. Seems like edge_ratio 0.17 is too low, may need to change required_edge close to floor
+- bossbeauties 866: 2022-03-25 bought 1.3 eth, 2022-03-26 sold 1.95 eth, **net pnl 0.5 eth**, holding period 0.25 days
+	- https://etherscan.io/tx/0x09eec56d381303d0b8118509b0a93b6516b3340a8e89e95f4a9f74a996d32609 bought edge_ratio 7.3 (~13 after bug fix), edge 0.79. Listed below floor 1.55. Bought from same wallet as 5844 buy
+	- https://etherscan.io/tx/0x2a2fa208edfbd95dc5737854190d6a32dbbe950419523e48c8d563396786baa3 initial tx was dropped and replaced for some reason
+	- https://etherscan.io/tx/0xddfd920374e8948ea8b6f1a32af7f096c5197fc0d91d42549a0764fda87ef581 sold edge_ratio ~0.3 (~1 after bug fix), edge ~0.3
+	- Noticed after buying that wallet https://opensea.io/0x2e90606D7c5F13BbaBD54188c9c84f58Ab400570 (jtyler), holder of ~125 BBs, started listing en masse within last 12 hours or so. Has done so in waves over last couple months. Interestingly also occasionally buys, e.g. bought 5844 from me on 2022-03-25
+	- Fixed required_edge trait parsing bug in this case affecting any BB trait with substring "crown": [postmortem_20220325_bossbeauties_866.md](postmortem/postmortem_20220325_bossbeauties_866.md)
+- rumble-kong-league 4233: 2022-03-28 bought 1.28 eth, 2022-03-28 sold 2.17 eth, **net pnl 0.73 eth**, holding period 5 hours
+	- https://etherscan.io/tx/0xe4cff93f5476dee88f3723f4f5a3d890ac8de4f59f7b4f723be6c1f3d0ed4e0d bought edge ~0.3 (223 boost). OS displayed floor was 1.3
+	- https://etherscan.io/tx/0x7670ab200332e92ec663237e410edc9b667fbed405181a5f4105fcc760f7c412 sold edge -0.48, theo 1.59
+	- Should be able to improve pricing in higher boost RKL
+- rumble-kong-league 2158: 2022-04-04 bought 1.49 eth, 2022-04-08 sold 1.525 eth (nfttrader), **net pnl 0 eth**, holding period 4 days
+	- https://etherscan.io/tx/0x0304db70a51a6f8465d5057ee68b38c5431212770134acabf1ef35dd2c95f210 bought edge ~0.5 (222 boost). Listed 20:55:20, bought 20:56:30, 70 seconds
+	- Marked as suspicious by OS the following day, approximately 12 hours later. Could not sell even at 1.8 on LR. Submitted request to unfreeze on 2022-04-07, response on 2022-04-08 saying they will 2.5% OS fee they collected from the trade but have to settle separately with owner. Owner offered 0.3 eth return fee but could not pay until 3 days later, decided to get mods involved in general chat
+	- https://etherscan.io/tx/0x8f5e2ef7196a37bdd189f262a863f65ce966bf8f3daefb7f3923ba14f9462122 nfttrader trade with RKL mod
+- rumble-kong-league 9922: 2022-04-07 bought 2.05 weth, 2022-04-27 sold 2.9 eth, **net pnl 0.63 eth**, holding period 20 days
+	- https://etherscan.io/tx/0x9b320d9f3cd66d2954956dfbaec1901ef6690c79070f462e283597d8fe85ca61 bought edge ~0.88 (193 boost, 83 shooter)
+        - https://etherscan.io/tx/0x394a5b95e5a92ee0fcc817f1c6ce13b9d742c873fa4d16eb2086725b5bd6431a sold edge ~0.15
+	- Past comparable sales: 3.473 weth (1460: 197 total, 80 shooter), 3.45 eth (744: 205 total, 80 shooter), 5.5 eth (1708: 208 total, 83 shooter), 5.99 eth (7046: 196 total, 86 shooter), 6.85 eth (2109: 191 total, 87 shooter)
+	- Pricing a bit suspect for lower overall, high shooter. Coefficient for shooting_is_pro < shooting_is_semi_pro not sensible. If pricing over last 120 days, edge ~0.72 and {stat}_is_pro vs {stat}_is_semi_pro relationships make sense. But r-squared is worse if additional overall stat > X condition added into {stat}_is_pro and {stat}_is_semi_pro logic
+- rumble-kong-league 6108: 2022-04-14 bought 1.35 eth, 2022-04-16 sold 2.09 eth, **net pnl 0.58 eth**, holding period 2 days
+	- https://etherscan.io/tx/0x872dd841e94c435a4547539e7ab8aa76f551b712e9310adf71f6dd4371aedf76 bought edge ~0.7 (223 boost, 73 vision). Listed 12:35:37, bought 12:36:38, 61 seconds
+        - https://etherscan.io/tx/0x85d86d2b1583a65ef7e6f704c0b580de102832caa8069e4d1d897135ffa577b8 sold edge -0.1, theo 2
+- steedz-of-degen 2592: 2022-04-15 bought 0.1419 eth, 2022-04-17 sold 0.2 eth, **net pnl 0.03 eth**, holding period 2 days
+	- https://etherscan.io/tx/0x52ae8118a6871b71ed40146b2dac3bc5a6f4d5ec651cb4e36d1b2bede06a88b2 bought as part of steedz reveal strategy
+        - https://etherscan.io/tx/0x35f60dd9c27ca777f4da59e11fe01208cfd739bcb791fd1be6ba5968c8dbf3b0 sold, bit of a rush since this was first reveal strategy trade
+- rumble-kong-league 5496: 2022-04-18 bought 1.1 eth, 2022-04-22 sold 1.64 eth, **net pnl 0.41 eth**, holding period 4 days
+        - https://etherscan.io/tx/0x4ce1556c9c5ad016022f37dae12736868f6ee9da6d9be8a2a7da94df40321243 bought edge 0.25 (211 boost). Listed 20:31:37, bought 20:32:32, 55 seconds
+        - https://etherscan.io/tx/0xdf7c93ecf799d495f7a42d3bc540b8bf614b45f140d1e8967469ee0721691fde sold edge -0.13, theo 1.49
+        - Interesting that 211 boost took so long to sell despite being clearly best 200+ offer. Several 220+ boost traded
+- rumble-kong-league 9320: 2022-04-27 bought 1.55 eth, 2022-05-03 sold 1.95 eth, **net pnl 0.25 eth**, holding period 6 days
+        - https://etherscan.io/tx/0x5bf0a2d2c5786a76e8e4029b6784a438c689997ccb98a0c99479328ca7fdf94d bought 0.26 edge (218 boost)
+        - https://etherscan.io/tx/0x623116e32e3e798cbd405b2cb84dbe0d665a82b7a1a92295475e5c41d42730dd sold -0.16 edge (theo 1.77)
+- rumble-kong-league 7572: 2022-04-29 bought 1.1 eth
+        - https://etherscan.io/tx/0x1110c01898d29d74d3ecf720cbc294f21499ae6904b9ea9cf66e3f631872ab83 bought 0.23 edge (174 boost). Listed 16:58:18, bought 16:59:12, 54 seconds. Global floor was 1.298
+- otherdeed 58949: 2022-05-01 bought 9.5 eth
+        - https://etherscan.io/tx/0xf0ef8646f9d13f87c0b072b3c6ce1a5f0569ed6250ff9c8c46f3f07b7b7a3994 reveal strategy, bought 13 minutes after reveal. Floor between 25-30 eth post-reveal
+- murakami-flowers 956:
+        - https://etherscan.io/tx/0x19158835e7526483c95c9a6c89275aa72b4b25931f7e75d77a248d8215fe3062 reveal strategy
+        - [postmortem_20220503_murakami-flowers_reveal.md](postmortem/postmortem_20220503_murakami-flowers_reveal.md)
+- fear-city 2807:
+        - https://etherscan.io/tx/0x4818d6750309a057a9379200ce4b0c571e963e78fe4e33add728bacfe51147bd reveal strategy, bought 3 minutes after reveal
+        - [postmortem_20220610_fear-city_reveal.md](postmortem/postmortem_20220610_fear-city_reveal.md)
+
