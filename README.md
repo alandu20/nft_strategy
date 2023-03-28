@@ -1,10 +1,10 @@
 # NFT Trading System
 
-Note this a partial version of the full repo. Inquiries: alan.du20@gmail.com.
-
-Evaluate NFT opportunities on OpenSea and LooksRare in real-time as they are listed, using a pricing and required edge framework for market making and stat-arb strategies for event-driven opportunities.
+Evaluate NFT opportunities on OpenSea and LooksRare in real-time as they are listed, using a pricing and required edge framework for market making and stat-arb strategies for event-driven opportunities. Inspiration from options trading strategies used at prop trading firms. Realized PnL of 29 ETH using initial investment of 25 ETH (50 trades with a typical holding period of 2 weeks).
 
 Semi-automated using Heroku.
+
+This a partial version of the full repo. Inquiries: alan.du20@gmail.com.
 
 # Files
 1. config.py: inputs by collection
